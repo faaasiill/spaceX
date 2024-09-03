@@ -1,0 +1,346 @@
+@font-face {
+    font-family: fasil;
+    src: url(./media-folder/font-folder/d-din/D-DIN-Bold.otf);  
+}
+@font-face {
+    font-family: fasiltwo;
+    src: url(./media-folder/font-folder/DIN-Light.otf);
+}
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+footer{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47PX;
+}
+footer a{
+    font-size: 11.6px;
+    font-family: 'fasiltwo';
+}
+span{
+    font-family: 'fasil';
+    font-weight: 100;
+    transition: 0.5s ;
+}
+span:hover{
+    color: rgba(255, 255, 255, 0.559);
+    transition: 0.5s ;
+}
+.none{
+    position: relative;
+    
+}
+.none::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: white;
+    transition: .2s;
+    
+}
+.none:hover:after{
+    width: 100%;
+}
+.container-one{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 285px 900px 1fr;
+    height: 95px;
+    margin-bottom: 52.2vh;
+}
+.logo{
+    position: relative;
+}
+
+.part-one{
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+a{
+    font-family: 'fasil';
+    font-size: 13.8px;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.part-two{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 60px 90px 60px 60px 130px 70px 70px 60px;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    column-gap: 25.5px;
+    letter-spacing: .1px;
+}
+.more-about{
+    margin: auto;
+    
+}
+.part-three{
+    display: grid;
+    grid-template-columns: 65px 50px;
+    margin: auto;
+    padding-top: 10px;
+    margin-left: 120px;
+}
+.shop{
+    width: 10px;
+}
+.menu{
+    width: 30px;
+    
+}
+
+
+/* container-one-text*/
+
+.text-container{
+    color: white;
+    display: grid;  
+    
+}
+.LAUNCH{
+    font-family: 'fasiltwo';
+    margin: 0;
+    margin-left: 4.8vw;
+    margin-bottom: 7px;
+    font-size: 18.5px;
+}
+.dawn{
+    font-family: 'fasil';
+    margin: 0;
+    margin-left: 4.8vw;
+    font-size: 48px;
+    margin-bottom: 27px;
+}
+.watch{
+    margin-left: 4.8vw;
+    width: 164px;
+    height: 54px;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-family: 'fasil';
+    font-weight: 100;
+    font-size: 13.5px;
+    letter-spacing: .2px;
+}
+button{
+    margin-left: 4.8vw;
+    width: 164px;
+    height: 54px;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-family: 'fasil';
+    font-weight: 100;
+    font-size: 13.5px;
+    letter-spacing: .2px;
+    position: relative;
+    transition: .5s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+.container-two{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./media-folder/image-folder/container2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    
+}
+.text-container2{
+    color: white;
+    display: grid;  
+    padding-top: 64.2vh;
+}
+.LAUNCH2{
+    font-family: 'fasiltwo';
+    margin: 0;
+    margin-left: 4.8vw;
+    margin-bottom: 7px;
+    font-size: 18.5px;
+}
+.dawn2{
+    font-family: 'fasil';
+    margin: 0;
+    margin-left: 4.8vw;
+    font-size: 48px;
+    margin-bottom: 27px;
+}
+.watch2{
+    margin-left: 4.8vw;
+    width: 164px;
+    height: 54px;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-family: 'fasil';
+    font-weight: 100;
+    font-size: 13.5px;
+    letter-spacing: .2px;
+}
+.container-three{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./media-folder/image-folder/container3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+.text-container3{
+    color: white;
+    display: grid;  
+    padding-top: 64.2vh;
+}
+.LAUNCH3{
+    font-family: 'fasiltwo';
+    margin: 0;
+    margin-left: 4.8vw;
+    margin-bottom: 7px;
+    font-size: 18.5px;
+}
+.dawn3{
+    font-family: 'fasil';
+    margin: 0;
+    margin-left: 4.8vw;
+    font-size: 48px;
+    margin-bottom: 27px;
+}
+.watch3{
+    margin-left: 4.8vw;
+    width: 164px;
+    height: 54px;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-family: 'fasil';
+    font-weight: 100;
+    font-size: 13.5px;
+    letter-spacing: .2px;
+}
+:root{
+    --fasil: rgb(255, 255, 255);
+}
+
+.container-four{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./media-folder/image-folder/container4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+.text-container4{
+    color: var(--fasil);
+    display: grid;  
+    padding-top: 61.2vh;
+}
+.LAUNCH4{
+    font-family: 'fasiltwo';
+    margin: 0;
+    margin-left: 4.8vw;
+    margin-bottom: 7px;
+    font-size: 18.5px;
+}
+.dawn4{
+    font-family: 'fasil';
+    margin: 0;
+    margin-left: 4.8vw;
+    font-size: 48px;
+    margin-bottom: 27px;
+}
+.watch4{
+    margin-left: 4.8vw;
+    width: 164px;
+    height: 54px;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-family: 'fasil';
+    font-weight: 100;
+    font-size: 13.5px;
+    letter-spacing: .2px;
+}
+.container-five{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./media-folder/image-folder/container\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+.text-container5{
+    color: white;
+    display: grid;  
+    padding-top: 61.2vh;
+}
+.LAUNCH5{
+    font-family: 'fasiltwo';
+    margin: 0;
+    margin-left: 4.8vw;
+    margin-bottom: 7px;
+    font-size: 18.5px;
+}
+.dawn5{
+    font-family: 'fasil';
+    margin: 0;
+    margin-left: 4.8vw;
+    font-size: 48px;
+    margin-bottom: 27px;
+}
+.watch5{
+    margin-left: 4.8vw;
+    width: 164px;
+    height: 54px;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-family: 'fasil';
+    font-weight: 100;
+    font-size: 13.5px;
+    letter-spacing: .2px;
+}
+.video-one{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
